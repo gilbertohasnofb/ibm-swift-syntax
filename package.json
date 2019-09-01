@@ -11,7 +11,7 @@
   "homepage": "https://github.com/gilbertohasnofb/ibm-swift-syntax#readme",
   "name": "ibm-swift-syntax",
   "optionalDependencies": {},
-  "readme": "## IBM Swift theme\n\nA theme for Atom.\n\nInspired by IBM's [Swift Sandbox Theme](https://developer.ibm.com/swift/2015/12/03/introducing-the-ibm-swift-sandbox/). The code is based on the [Firewatch Syntax Theme](https://atom.io/themes/firewatch-syntax).\n\n![ibm-swift-screenshot](https://i.postimg.cc/yYmzGSz8/ibm-swift-syntax-screenshot.png)\n",
+  "readme": "## IBM Swift theme\n\nA theme for Atom.\n\nInspired by IBM's [Swift Sandbox Theme](https://developer.ibm.com/swift/2015/12/03/introducing-the-ibm-swift-sandbox/). The code is based on the [Firewatch Syntax Theme](https://atom.io/themes/firewatch-syntax).\n\n![ibm-swift-screenshot](https://raw.githubusercontent.com/gilbertohasnofb/ibm-swift-syntax/master/ibm-swift-syntax-screenshot.png)\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
