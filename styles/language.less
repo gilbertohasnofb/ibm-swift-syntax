@@ -12,7 +12,7 @@
 .syntax--entity {
 
   &.syntax--name.syntax--type {
-    color: @hue-9;
+    color: @hue-8;
     text-shadow: 0px 0px @blur-size fade(@hue-8, @blur-opacity);
   }
 
@@ -52,8 +52,11 @@
   text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
 
   &.syntax--type {
-      color: @hue-9;
-      text-shadow: 0px 0px @blur-size fade(@hue-9, @blur-opacity);
+    &.syntax--annotation,
+    &.syntax--primitive {
+      color: @hue-3;
+      text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
+    }
   }
 
   &.syntax--modifier {
@@ -183,7 +186,7 @@
   }
 
   &.syntax--type {
-    color: @hue-9;
+    color: @hue-1;
     text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
   }
 
@@ -221,8 +224,8 @@
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @hue-7;
-    text-shadow: 0px 0px @blur-size fade(@hue-7, @blur-opacity);
+    color: @hue-10;
+    text-shadow: 0px 0px @blur-size fade(@hue-10, @blur-opacity);
 
     &.syntax--id {
       color: @hue-2;
